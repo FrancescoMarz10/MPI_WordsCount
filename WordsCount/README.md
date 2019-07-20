@@ -4,7 +4,7 @@ Il seguente progetto si propone di calcolare la ricorrenza delle parole all'inte
 
 ## Esecuzione
 
-All'interno della directory viene presentato il file contenente il codice sorgente della soluzione al problema analizzato. Il file wordsCount.c infatti, mostra una corretta implementazione delle funzionalità richieste. Per l'esecuzione di tale programma è necessario specificare il numero di file che si vogliono considerare per il conteggio delle parole in essi contenuti. Risulta necessario, inoltre, per il corretto funzionamento del programma, la presenza (su ogni processore) del file "sequenziale.h", ove viene specificato il codice per lo svolgimento con un singolo processore, e la cartella "Files", all'interno del quale verranno inseriti tutti i file da esaminare e i file listNUM.txt, dove NUM rappresenta il numero di nomi di files contenuti da conteggiare.
+All'interno della directory viene presentato il file contenente il codice sorgente della soluzione al problema analizzato. Il file 'wordsCount.c' infatti, mostra una corretta implementazione delle funzionalità richieste. Per l'esecuzione di tale programma è necessario specificare il numero di file che si vogliono considerare per il conteggio delle parole in essi contenuti. Risulta necessario, inoltre, per il corretto funzionamento del programma, la presenza (su ogni processore) del file "sequenziale.h", ove viene specificato il codice per lo svolgimento con un singolo processore, e la cartella "Files", all'interno del quale verranno inseriti tutti i file da esaminare e i file listNUM.txt, dove NUM rappresenta il numero di nomi di files contenuti da conteggiare.
 
 Ad esempio, nel file list1.txt sarà contenuto soltanto un file denominato 'fileGenerato1.txt'.
 
