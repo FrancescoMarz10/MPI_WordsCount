@@ -117,7 +117,7 @@ Di seguito vengono riportati i risultati, in media, delle cinque esecuzioni fatt
 In conclusione, dai risultati visibili dello Strong Scalability, si osserva come con l'analisi di otto file composti da un milione di parole, utilizzare più di tre processori non risulta avere enormi vantaggi, in quanto il miglioramento delle prestazioni non risulta essere troppo evidente. Naturalmente la situazione potrebbe evolversi diversamente con dimensione e numero diversi di file. 
 
 
-##Weak Scaling
+## Weak Scaling
 Il Weak Scaling prevede il mantenimento del lavoro per lavoratore fisso, con il successivo aumento dei lavoratori, così da ottenere un aumento della taglia totale del problema. L'obiettivo di tale tipologia di testing è la risoluzione di problemi di taglia maggiore.
 
 ***Calcolo dello speedup***: nel weak scaling il calcolo dello speedup è dettato dalla formula **t1 / tN**, dove *t1* è il tempo impiegato per completare un'unità di lavoro con un unico elemento di elaborazione e *tN* è il tempo impiegato per completare *N* delle medesime unità di lavoro con *N* unità di elaborazione. Per una migliore lettura dei risultati, il risultato di tale formula è stato espresso in percentuale. 
