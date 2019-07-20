@@ -6,7 +6,7 @@ Il seguente progetto si propone di calcolare la ricorrenza delle parole all'inte
 
 All'interno della directory viene presentato il file contenente il codice sorgente della soluzione al problema analizzato. Il file wordsCount.c infatti, mostra una corretta implementazione delle funzionalità richieste. Per l'esecuzione di tale programma è necessario specificare il numero di file che si vogliono considerare per il conteggio delle parole in essi contenuti. Risulta necessario, inoltre, per il corretto funzionamento del programma, la presenza (su ogni processore) del file "sequenziale.h", ove viene specificato il codice per lo svolgimento con un singolo processore, e la cartella "Files", all'interno del quale verranno inseriti tutti i file da esaminare e i file listNUM.txt, dove saranno presenti i nomi di tutti i file da conteggiare.
 
-All'interno del package, per agevolare i test è stato inserito uno script, fileGenerator1.java, ed un dizionario word.txt, per generare file con parole casuali della dimensione inserita all'interno del programma. Tale script crea un file denominato 'fileGenerato.txt'.
+All'interno del package, per agevolare i test è stato inserito uno script, fileGenerator1.java, ed un dizionario word.txt, per generare file con parole casuali della dimensione inserita all'interno del programma. Tale script crea un file denominato 'fileGenerato.txt'. Dunque, nel caso in cui si desideri generare più file, è necessario rinominare ed aggiornare il file list corrispondente. Una volta terminata tale procedura sul master, la cartella Files può essere inviata agli slaves.
 
 Per effettuate la compilazione del programma è necessario eseguire sul cloud AWS il seguente comando:
 ```
