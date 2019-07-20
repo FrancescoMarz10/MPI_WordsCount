@@ -94,7 +94,6 @@ I test, inoltre, verranno realizzati tramite due tipologie di test in grado di v
 ## Strong Scaling 
 Lo Strong Scaling viene realizzato mantenendo fisse le dimensioni del problema e incrementando il numero di processori che dividono il carico lavorativo. L'obiettivo di tale tipologia di test è ridurre al minimo il tempo necessario alla soluzione di un determinato problema.
 
-//MODIFICARE
 ***Calcolo dello speedup***: nello strong scaling il calcolo dello speedup è dettato dalla formula **t1 / (N x tN)**, dove *t1* è il tempo impiegato per completare un'unità di lavoro con un unico elemento di elaborazione e *tN* è il tempo impiegato per completare la medesima unità di lavoro con *N* unità di elaborazione. Per una migliore lettura dei risultati, il risultato di tale formula è stato espresso in percentuale.
 
 I test sono stati effettuati, per ognuna delle istanze pensate, su dei file contententi un milione di parole, in quanto da questa dimensione in poi, i valori delle differenti esecuzioni iniziano a mostrare maggiore risalto.
