@@ -5,6 +5,7 @@ Il seguente progetto si propone di calcolare la ricorrenza delle parole all'inte
 ## Esecuzione
 
 All'interno della directory viene presentato il file contenente il codice sorgente della soluzione al problema analizzato. Il file wordsCount.c infatti, mostra una corretta implementazione delle funzionalità richieste. Per l'esecuzione di tale programma è necessario specificare il numero di file che si vogliono considerare per il conteggio delle parole in essi contenuti. Risulta necessario, inoltre, per il corretto funzionamento del programma, la presenza (su ogni processore) del file "sequenziale.h", ove viene specificato il codice per lo svolgimento con un singolo processore, e la cartella "Files", all'interno del quale verranno inseriti tutti i file da esaminare e i file listNUM.txt, dove NUM rappresenta il numero di nomi di files contenuti da conteggiare.
+
 Ad esempio, nel file list1.txt sarà contenuto soltanto un file denominato 'fileGenerato1.txt'.
 
 All'interno del package (più precisamente nella cartella Files) per agevolare i test è stato inserito uno script, fileGenerator1.java, ed un dizionario word.txt, con lo scopo di generare file con parole casuali della dimensione inserita all'interno del programma. Tale script crea un file denominato 'fileGenerato.txt'. Dunque, nel caso in cui si desideri generare più file, è necessario rinominare quello appena creato ed aggiornare i file list corrispondenti. Una volta terminata tale procedura sul master, la cartella Files può essere compressa ed inviata agli slaves.
