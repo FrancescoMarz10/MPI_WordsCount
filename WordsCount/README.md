@@ -1,4 +1,4 @@
-# Words Count
+# MPI Words Count
 
 Il seguente progetto si propone di calcolare la ricorrenza delle parole all'interno dei file analizzati, evitando possibili ripetizioni.
 
