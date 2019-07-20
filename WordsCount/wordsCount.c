@@ -78,7 +78,6 @@ int main(int argc, char** argv)
 
     char filenames[num_files][20];
     int offset[num_files][num_processor];
-    //INSERIRE SEQUENZIALE
 
     if(rank == 0){
 
